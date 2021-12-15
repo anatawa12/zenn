@@ -1,3 +1,5 @@
-# Zenn CLI
+# Zenn Articles by [anatawa12][zenn-anatawa12]
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+The repository to control Zenn Articles by [anatawa12][zenn-anatawa12]
+
+[zenn-anatawa12]: https://zenn.dev/anatawa12
