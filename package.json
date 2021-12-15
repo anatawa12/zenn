@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatawa12/zenn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/anatawa12/zenn/issues"
+  },
+  "homepage": "https://github.com/anatawa12/zenn#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.100"
+  }
+}
