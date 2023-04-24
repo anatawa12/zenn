@@ -3,7 +3,7 @@ title: "anatawa12のVRChatアバタープロジェクトを紹介する"
 emoji: "🐙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vrchat"]
-published: false
+published: true
 ---
 
 Twitterで需要ある？って聞いたらあると言われたので私のアバタープロジェクトの構成を紹介してみます。
