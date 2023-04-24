@@ -44,8 +44,10 @@ macOS上で開発するのは意外と問題なく開発できますが、おす
 ノウハウ聞かれたら無限に答えますが。
 :::
 
-答え2: VCCは公式のを使わずに vrc-get という自作のやつ使ってます。
-理由2: VCCのmac用コマンドあるんですが機能不足なので vrc-get 使ってます。
+答え2: VCCは公式のを使わずに [vrc-get] という自作のやつ使ってます。
+理由2: VCCのmac用コマンドあるんですが機能不足なので [vrc-get] 使ってます。
+
+[vrc-get]: https://github.com/anatawa12/vrc-get
 
 答え3: テキストエディタ / IDEはRiderを使用してます。
 理由3: JetBrains信者なんです。VSCodeは補完弱いし使い慣れてない。Visual Studio使い慣れてない。
