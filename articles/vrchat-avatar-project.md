@@ -74,7 +74,7 @@ macOS上で開発するのは意外と問題なく開発できますが、おす
 - 最初のVCCはgit upmに依存してたんですよね〜 VRCSDK 3.0.x時代懐かしい。
 - ちなみにVCC最初期当時のSDKは[ここ](https://github.com/vrchat/packages/tree/refs/tags/3.0.4)に残ってたりします。
 - いまみてみたらVCC (Creator Toolbox) 発表当日なんですね VCC beta使用開始
-- ちなみにVPM VCCへの移行は少し遅れた記憶があります。以降が発表された当時unityから離れてた気がする。
+- ちなみにVPM VCCへの移行は少し遅れた記憶があります。移行が発表された当時和服作っててunityから離れてた気がする。
 
 :::
 
@@ -127,9 +127,8 @@ vpmになってなかったり開発中だったりするやつを突っ込ん�
 リリースされてない最新版を使ってる状態。
 
 #### [com.anatawa12.continuous-avatar-uploader](https://github.com/anatawa12/ContinuousAvatarUploader)
-1アバター1衣装向けの連続アップロードツールを作ろうとレポジトリだけ作ったやつです。AvatarOptimizerと同様に開発用にここにあります。
-
-**まだ何も機能がありません** なのに star が 10 も付いてるんですよね... 期待されちゃってる
+1アバター1衣装向けの連続アップロードツールです。AvatarOptimizerと同様に開発用にここにあります。
+一応v0.1.0にはなりました。リリースされてない最新版を使ってる状態。
 
 #### [jp.lilxyzw.scene-view-extensions](https://github.com/lilxyzw/lilSceneViewExtensions/)
 メッシュの法線とかを見られるツール。1.0までvpm repoに入れないと言ってましたのでgitにいれてます。
