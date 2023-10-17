@@ -7,7 +7,7 @@ published: true
 ---
 
 Twitterで需要ある？って聞いたらあると言われたので私のアバタープロジェクトの構成を紹介してみます。
-AvatarOptimizerのテスト環境と共通です。
+~~AvatarOptimizerのテスト環境と共通です。~~ AvatarOptimizerのテスト環境は別プロジェクトの各種私のいじってるツールのキメラプロジェクトに移動になりました
 
 :::message
 あくまでも個人的に使用してる形式です。また推奨できない部分があります。
@@ -22,7 +22,7 @@ AvatarOptimizerのテスト環境と共通です。
 
 ### プロジェクト数は
 答え: 使用してるのは 1 project。すべての手持ちアバターを同じプロジェクトにまとめてます。VCC検証用に小さいプロジェクトは結構な数ありますが無視します。
-理由: Avatar Optimizer等の開発の都合があったりプロジェクトの開き直しが面倒なため。
+理由: ~~Avatar Optimizer等の開発の都合があったり~~ プロジェクトの開き直しが面倒なため。
 
 ### シーン数は
 答え: 1アバター 1 シーンになってます。
@@ -52,7 +52,7 @@ macOS上で開発するのは意外と問題なく開発できますが、おす
 
 [vrc-get]: https://github.com/anatawa12/vrc-get
 
-答え3: テキストエディタ / IDEはRiderを使用してます。
+答え3: テキストエディタ / IDEはFleet/Riderを使用してます。
 理由3: JetBrains信者なんです。VSCodeは補完弱いし使い慣れてない。Visual Studio使い慣れてない。
 
 ### プロジェクトはどこおいてる
@@ -115,29 +115,29 @@ CompileLogger, PhysBoneEditorUtilities, SetRandomBlueprintId, CompilationLogWind
 #### [de.thryrallo.vrc.avatar-performance-tools](https://github.com/Thryrallo/VRC-Avatar-Performance-Tools)
 テクスチャごとのVRAM使用量を可視化してくれるやつ。 どのテクスチャがVRAM余計に食ってるか見れるので、VRAMがperformance rankにはいったときにこれを使って容量減らすテクスチャを探しました。
 
-### git submodule経由
-
-:::details git submoduleとは
-端的に言うとプロジェクトの中に別のgitプロジェクトを突っ込めるやつです。
-vpmになってなかったり開発中だったりするやつを突っ込んでます。
-:::
-
 #### [com.anatawa12.avatar-optimizer](https://github.com/anatawa12/AvatarOptimizer)
-私を有名にしたAvatarOptimizerは開発中なので vpm レポジトリを経由せずにここにあります。
-リリースされてない最新版を使ってる状態。
+私を有名にしたAvatarOptimizer~~は開発中なので vpm レポジトリを経由せずにここにあります。~~ ある程度安定したのでvpm導入に切り替えました。
+だいたい最新版を使ってる状態。
 
 #### [com.anatawa12.continuous-avatar-uploader](https://github.com/anatawa12/ContinuousAvatarUploader)
-1アバター1衣装向けの連続アップロードツールです。AvatarOptimizerと同様に開発用にここにあります。
-一応v0.1.0にはなりました。リリースされてない最新版を使ってる状態。
-
-#### [jp.lilxyzw.scene-view-extensions](https://github.com/lilxyzw/lilSceneViewExtensions/)
-メッシュの法線とかを見られるツール。1.0までvpm repoに入れないと言ってましたのでgitにいれてます。
-AvatarOptimizerのバグ調査で使えそうだと思って使わせてもらってます。
+1アバター1衣装向けの連続アップロードツールです。~~AvatarOptimizerと同様に開発用にここにあります。~~ ある程度安定したのでvpm導入に切り替えました。
+最新版を使ってる状態。
 
 #### [lyuma.av3emulator](https://github.com/lyuma/Av3Emulator)
 
 GestureManagerより高度なAvatars 3.0のunity上のエミュレータです。
-curatedにはいるならそっちで、入らなければ独自のレポジトリ建てるそうなので、方針定まるまではsubmodule運用してます。
+~~curatedにはいるならそっちで、入らなければ独自のレポジトリ建てるそうなので、方針定まるまではsubmodule運用してます。~~
+curatedになったのでそっちから入れるようにしました。
+
+### git upm経由
+
+:::details git upmとは
+UPMの機能の一つでgitレポジトリをupmパッケージとして使えるやつです。
+:::
+
+#### [jp.lilxyzw.scene-view-extensions](https://github.com/lilxyzw/lilSceneViewExtensions/)
+メッシュの法線とかを見られるツール。1.0までvpm repoに入れないと言ってましたのでgit upmでいれてます。
+AvatarOptimizerのバグ調査で使えそうだと思って使わせてもらってます。
 
 ### その他
 
