@@ -14,7 +14,7 @@ Twitterで需要ある？って聞いたらあると言われたので私のア�
 :::
 
 :::message
-知りたいことがあれば [twitter](https://twitter.com/anatawa12_vrc) に聞いてください
+知りたいことがあれば [misskey](https://go.anatawa12.com/misskey.vrchat) に聞いてください
 :::
 
 ### SDKは
