@@ -82,11 +82,6 @@ macOS上で開発するのは意外と問題なく開発できますが、おす
 
 ### VCC/VPM経由
 
-#### com.vrchat.core.vpm-resolver
-VPM/VCCの基礎機能の一つ。更新等は経由してますがgitレポジトリにあるのでVCC経由と言えるかは微妙です。
-残りのVCC経由のやつはこれ経由で入れてくれます。
-vrc-get resolverができたら([issue](https://github.com/anatawa12/vrc-get/issues/86))そっちに移行したいなぁ...
-
 #### com.vrchat.base
 単なるVRCSDKの前提のはずなのになぜか依存として定義されてますね。VCC初期のバグの類…?
 
@@ -135,11 +130,12 @@ curatedになったのでそっちから入れるようにしました。
 UPMの機能の一つでgitレポジトリをupmパッケージとして使えるやつです。
 :::
 
+#### [com.anatawa12.vrc-get-resolver](https://github.com/anatawa12/vrc-get-resolver.git)
+VPMのvpm-resolverの代替品です
+
 #### [jp.lilxyzw.scene-view-extensions](https://github.com/lilxyzw/lilSceneViewExtensions/)
 メッシュの法線とかを見られるツール。1.0までvpm repoに入れないと言ってましたのでgit upmでいれてます。
 AvatarOptimizerのバグ調査で使えそうだと思って使わせてもらってます。
-
-### その他
 
 #### [com.anatawa12.editor-extension](https://github.com/anatawa12/VRC-Unity-extension.git)
 
