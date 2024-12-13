@@ -6,7 +6,7 @@ topics: ['misskey']
 published: false
 ---
 
-[Misskey Advent Calendar 2024][calender] 10日目の記事です。
+[Misskey Advent Calendar 2024][calender] 13日目の記事です。
 
 -----
 
