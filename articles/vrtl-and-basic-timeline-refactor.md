@@ -22,8 +22,7 @@ Vmimi-Relay Timeline は、ぶいみみリレーからのノートを表示す�
 VRChatとかResoniteとかClusterとかは VR SNS 、いわゆるメタバースと呼ばれるものの一種になります。
 
 > VRChatとかResoniteとかClusterとかそのあたりのユーザーを想定した小規模サーバー向けのリレーサーバーです。
-
-<small>[Vmimi Relay]ホームページから引用</small>
+([Vmimi Relay]ホームページから引用)
 
 なので、Vmimi-Relay Timeline は VR SNS 関連サーバーからのノートを表示するためのタイムラインです。
 
