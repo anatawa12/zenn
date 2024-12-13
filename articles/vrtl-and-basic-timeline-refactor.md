@@ -1,5 +1,5 @@
 ---
-title: "独自タイムライン VRTL を作った話とそれに伴って misskey の timeline 処理をリファクタした話"
+title: "独自タイムライン VRTL を作った話とそれに伴って misskey のフロントエンドの timeline 処理をリファクタした話"
 emoji: "📘"
 type: "tech"
 topics: ['misskey']
