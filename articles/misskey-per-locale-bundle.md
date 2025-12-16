@@ -6,7 +6,7 @@ topics: ['misskey', "vite", "i18n", "vue"]
 published: true
 ---
 
-[Misskey Advent Calendar 2025][calendar] 13日目の記事です。
+[Misskey Advent Calendar 2025][calendar] 15日目の記事です。
 
 -----
 
